@@ -23,7 +23,7 @@ jobs:
     env:
       resourceGroupName: 'spaid-sharedsvcs-log-rg'
       workspaceName: 'spaid-sharedsvcs-log'
-      directory: '${{ github.workspace }}'
+      directory: '${{ github.workspace }}/Parsers'
       cloudEnv: 'AzureCloud'
       creds: ${{ secrets.AZURE_SENTINEL_CREDENTIALS_ea974d332a2e4b61891ae0bd97b32d67 }}
       contentTypes: 'Parser'
